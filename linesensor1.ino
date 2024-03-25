@@ -8,7 +8,7 @@ void setup(){
 
   for(i=;i<5;i++)
   {
-    PinMode(inesensor_pin[i], INPUT);  //디지털 linesensor_pin들을 입력으로 설정
+    pinMode(inesensor_pin[i], INPUT);  //디지털 linesensor_pin들을 입력으로 설정
   }
   Serial.begin(9600);
 }
