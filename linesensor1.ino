@@ -6,7 +6,7 @@ void setup(){
   int i;
   pinMode(ledPin, OUTPUT);  //디지털 핀 13을 출력으로 설정
 
-  for(i=;i<5;i++)
+  for(i=0;i<5;i++)
   {
     pinMode(inesensor_pin[i], INPUT);  //디지털 linesensor_pin들을 입력으로 설정
   }
